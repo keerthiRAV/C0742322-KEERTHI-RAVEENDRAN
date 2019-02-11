@@ -68,6 +68,7 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="form_validation.html" />
     <Content Include="images\Tube-rose1.jpg" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
