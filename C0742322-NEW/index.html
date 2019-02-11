@@ -2,11 +2,26 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>C0742322_NEW</title>
+    <title>Event!!!</title>
     <link href="css/default.css" rel="stylesheet" />
+    <script>
+        function trigger() {
+            document.getElementById("hover").addEventListener("mouseover", popup);
+            function popup() {
+                alert("welcome to my webpage!!!");
+            }
+        }
+    </script>
+    <style>
+        p{
+            font-size:50px;
+            position:fixed;
+            left:550px;
+            top:300px;
+        }
+    </style>
 </head>
-<body>
-    <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+<body onload="trigger();">
+    <p id="hover">Welcome!!!</p>
 </body>
 </html>
